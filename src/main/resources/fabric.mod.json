@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donutsmp_stream_manager",
+  "version": "${version}",
+  "name": "DonutSMP Stream Manager",
+  "description": "A client-side stream and auction manager for DonutSMP.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "nz.jordy.donutsmp.StreamManagerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
